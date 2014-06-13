@@ -1,0 +1,47 @@
+body {
+	background: url("background.png") repeat;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
+	color: #DCD0C0;
+}
+
+section, header{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+header{
+	background-color: rgba(0, 0, 0, .25);
+	text-align: center;
+	color: #DA635D;
+	font-size: 2em;
+}
+
+a:link {
+	text-decoration: none;
+	border-bottom: 1px dashed gray;
+    color: #DA635D;
+}
+
+a:visited {
+	color: #DA635D;
+	border-bottom: 1px dashed gray;
+}
+
+
+/* tablets and desktop */
+@media only screen and (min-width: 768px) {
+	.container {
+		width: 500px;
+		padding: 8px;
+		margin: auto;
+	}
+}
+/* phones */
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 94%;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
