@@ -1,33 +1,41 @@
 body {
 	background: url("background.png") repeat;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
 	color: #DCD0C0;
 }
 
-section, header{
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
 header{
+	font-family: 'Gloria Hallelujah', cursive;
 	background-color: rgba(0, 0, 0, .25);
 	text-align: center;
-	color: #DA635D;
-	font-size: 2em;
+	color: #b2f0f7;
+	font-size: 4rem;
+}
+
+section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.profile-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 250px;
 }
 
 a:link {
 	text-decoration: none;
 	border-bottom: 1px dashed gray;
-    color: #DA635D;
+    color: #e7de57;
 }
 
 a:visited {
-	color: #DA635D;
+	color: #e7de57;
 	border-bottom: 1px dashed gray;
 }
-
 
 /* tablets and desktop */
 @media only screen and (min-width: 768px) {
