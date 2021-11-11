@@ -18,6 +18,12 @@ section {
 	padding-bottom: 15px;
 }
 
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .profile-pic {
 	display: block;
 	margin-left: auto;
@@ -26,15 +32,12 @@ section {
 	width: 250px;
 }
 
-a:link {
+a {
 	text-decoration: none;
-	border-bottom: 1px dashed gray;
-    color: #e7de57;
 }
 
-a:visited {
-	color: #e7de57;
-	border-bottom: 1px dashed gray;
+.social-icon {
+	width: 32px;
 }
 
 /* tablets and desktop */
